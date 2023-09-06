@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <title>Membuat formulir </title>
+  </head>
+  <body> <center>
+    <h2>Formulir pendaftaran </h2>
+    <h3>Silahkan isi dengan benar</h3>
+    <form action="daftar_anggota.php" method="POST">
+      <table border="1" rules="all" cellpadding="5">
+        <tr>
+          <td>Username:</td>
+          <td>
+            <input type="text" name="nama_pengguna">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Kata sandi:</td>
+          <td>
+            <input type="password" name="kata_sandi">
+          </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                    <input type="checkbox"> Remember Me
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="right">
+              <center><p>Jika belum punya akun <a href="form2.html">clik here</a></p></center>
+              <center><input type="submit" name="kirim" value="Daftar"></center>
+            </td>
+        </tr>
+      </table>
+    </form>
+  </body> </center>
+</html>
